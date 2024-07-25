@@ -1,0 +1,40 @@
+.yoga-section {
+  margin: 20px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 20px;
+  background-color: #d1d4c7;
+  display: flex;
+  flex-direction: column;
+}
+
+.yoga-image {
+  width: 100%;
+  height: 50vh;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.yoga-text {
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.yoga-title {
+  margin-top: 10px;
+  font-size: 28px;
+  color: #333;
+}
+
+.yoga-description {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .yoga-section {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.header {
+  background-color: #2b3d4d;
+  padding: 20px;
+  text-align: left;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 20px;
+    text-align: center;
+  }
+}
